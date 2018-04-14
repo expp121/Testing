@@ -47,10 +47,10 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\Smart Pot Final;$(ProjectDir)..\..\..\Arduino\libraries\CayenneMQTT\src;E:\Programs\Arduino\libraries;$(ProjectDir)..\..\..\Arduino\libraries;E:\Programs\Arduino\hardware\arduino\avr\libraries;E:\Programs\Arduino\hardware\arduino\avr\cores\arduino;E:\Programs\Arduino\hardware\arduino\avr\variants\standard;E:\Programs\Arduino\hardware\tools\avr\avr\include\;E:\Programs\Arduino\hardware\tools\avr\avr\include\avr\;E:\Programs\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include;E:\Programs\Arduino\hardware\tools\avr\lib\gcc\avr\4.9.2\include;E:\Programs\Arduino\hardware\tools\avr\lib\gcc\avr\4.9.3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\Smart Pot Final;$(ProjectDir)..\..\..\Arduino\libraries\DHT-sensor-library-master;$(ProjectDir)..\..\..\Arduino\libraries\arduino_691564\src;E:\Programs\Arduino\libraries\Ethernet\src;E:\Programs\Arduino\hardware\arduino\avr\libraries\SPI\src;E:\Programs\Arduino\libraries;$(ProjectDir)..\..\..\Arduino\libraries;E:\Programs\Arduino\hardware\arduino\avr\libraries;E:\Programs\Arduino\hardware\arduino\avr\cores\arduino;E:\Programs\Arduino\hardware\arduino\avr\variants\standard;E:\Programs\Arduino\hardware\tools\avr\avr\include\;E:\Programs\Arduino\hardware\tools\avr\avr\include\avr\;E:\Programs\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include;E:\Programs\Arduino\hardware\tools\avr\lib\gcc\avr\4.9.2\include;E:\Programs\Arduino\hardware\tools\avr\lib\gcc\avr\4.9.3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(ProjectDir)__vm\.Smart Pot Final.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <IgnoreStandardIncludePath>false</IgnoreStandardIncludePath>
-      <PreprocessorDefinitions>__AVR_ATmega328p__;__AVR_ATmega328P__;F_CPU=16000000L;ARDUINO=10805;ARDUINO_AVR_UNO;ARDUINO_ARCH_AVR;__cplusplus=201103L;_VMICRO_INTELLISENSE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>__AVR_ATmega328p__;__AVR_ATmega328P__;_VMDEBUG=1;F_CPU=16000000L;ARDUINO=10805;ARDUINO_AVR_UNO;ARDUINO_ARCH_AVR;__cplusplus=201103L;_VMICRO_INTELLISENSE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>

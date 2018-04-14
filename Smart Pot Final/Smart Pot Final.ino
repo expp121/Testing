@@ -10,9 +10,9 @@
 #if defined(__AVR_ATmega32U4__) || defined(__AVR_ATmega16U4__)
 #include <CayenneMQTTYunClient.h>
 #include <CayenneArduinoMQTTClient.h> 
-#endif 
+#endif
 
-#include "libraries\DHT.h"
+#include <DHT.h>
 
 #pragma endregion
 
